@@ -1,2 +1,4 @@
-let str = 'Hello World'
-console.log(str[str.length-1])
+let celcius = 10
+let farenheit = (celcius * 1.8) + 32
+
+console.log(farenheit)
