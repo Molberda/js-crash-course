@@ -1,4 +1,9 @@
-let celcius = 10
-let farenheit = (celcius * 1.8) + 32
+let suscribed = true
 
-console.log(farenheit)
+if (suscribed === true) {
+    console.log ('show the video')
+}
+
+else {
+    console.log ('please subscribe')
+}
