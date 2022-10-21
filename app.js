@@ -1,4 +1,6 @@
-let cash = 23
-let price = 30
+let count = 1
 
-cash >= price ? console.log('success') : console.log ('fail')
+while (count <= 100) {
+    console.log (count)
+    count = count + 1
+}
