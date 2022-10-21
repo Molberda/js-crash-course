@@ -1,5 +1,5 @@
-function sumOfTwoNumbers (num1, num2) {
-    console.log (num1 + num2)
+function convertCelsiusToFarenheit(celsius) {
+    return celsius * 1.8 + 32
 }
 
-sumOfTwoNumbers(10, 10);
+console.log (convertCelsiusToFarenheit(30))
