@@ -1,5 +1,5 @@
-let str = 'Frontend Simplified'
-
-for (let i = 0; i < str.length; i++) {
-    console.log(str [i])
+function sumOfTwoNumbers (num1, num2) {
+    console.log (num1 + num2)
 }
+
+sumOfTwoNumbers(10, 10);
