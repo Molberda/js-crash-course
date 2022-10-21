@@ -1,6 +1,19 @@
-let count = 1
+for (i=1; i <=20; i++) {
 
-while (count <= 100) {
-    console.log (count)
-    count = count + 1
+    if (i % 5 !== 0 && i % 3 !== 0) {
+        console.log(i)
+    }
+
+    else if (i % 5 === 0 && i % 3 === 0) {
+        console.log (`${i} -> Frontend simplified`)
+    }
+
+    else if (i % 3 === 0) {
+        console.log (`${i} -> Frontend`)
+    }
+    
+    else if (i % 5 === 0) {
+        console.log (`${i} -> Simplified`)
+    }
+    
 }
