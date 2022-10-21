@@ -1,19 +1,5 @@
-for (i=1; i <=20; i++) {
+let str = 'Frontend Simplified'
 
-    if (i % 5 !== 0 && i % 3 !== 0) {
-        console.log(i)
-    }
-
-    else if (i % 5 === 0 && i % 3 === 0) {
-        console.log (`${i} -> Frontend simplified`)
-    }
-
-    else if (i % 3 === 0) {
-        console.log (`${i} -> Frontend`)
-    }
-    
-    else if (i % 5 === 0) {
-        console.log (`${i} -> Simplified`)
-    }
-    
+for (let i = 0; i < str.length; i++) {
+    console.log(str [i])
 }
